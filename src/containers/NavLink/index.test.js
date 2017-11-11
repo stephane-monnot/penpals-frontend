@@ -23,8 +23,9 @@ describe(NavLink, () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('contains a `li` subcomponent', () => {
+  it('contains a `li` subcomponent with a class `navigation-link`', () => {
     expect(component.find('li')).toHaveLength(1);
+    expect(component.find('li').hasClass('navigation-link')).toEqual(true);
   });
 
   it('contains an `Link` subcomponent', () => {
