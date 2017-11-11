@@ -1,5 +1,6 @@
 {
   "name": "penpals-frontend",
+  "homepage": "https://penpals.pages.gitlab.nanoka.fr/frontend/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
