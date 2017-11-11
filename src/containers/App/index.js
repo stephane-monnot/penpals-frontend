@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import Home from '../Home';
-import About from '../About';
+import HomeScreen from '../HomeScreen';
+import AboutScreen from '../AboutScreen';
 import Navigation from "../../components/Navigation/index";
 import NavLink from "../../components/NavLink/index";
 
@@ -15,8 +15,8 @@ const App = () => (
     </header>
 
     <main>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/about-us" component={About} />
+      <Route exact path="/" component={HomeScreen} />
+      <Route exact path="/about-us" component={AboutScreen} />
     </main>
   </div>
 );
