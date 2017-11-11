@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`({ children }) =>
+_react2.default.createElement("ul", { className: "navigation", __source: { fileName: _jsxFileName, lineNumber: 4 }, __self: undefined },
+  children) renders and matches our snapshot 1`] = `
+<ul
+  className="navigation"
+>
+  <li
+    className="navigation-link"
+  >
+    <a
+      href="/home"
+      label="Home"
+      onClick={[Function]}
+    />
+  </li>
+  <li
+    className="navigation-link"
+  >
+    <a
+      href="/about"
+      label="About"
+      onClick={[Function]}
+    />
+  </li>
+</ul>
+`;
