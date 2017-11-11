@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "prop-types": "^15.6.0",
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
     "react-redux": "^5.0.6",
@@ -20,6 +21,11 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "react-router": "^4.2.0"
+    "enzyme": "^3.1.1",
+    "enzyme-adapter-react-16": "^1.0.4",
+    "react-addons-test-utils": "^15.6.2",
+    "react-router": "^4.2.0",
+    "react-router-test-context": "^0.1.0",
+    "react-test-renderer": "^16.1.0"
   }
 }
