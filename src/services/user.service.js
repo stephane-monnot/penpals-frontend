@@ -9,7 +9,7 @@ function login(username, password) {
     body: JSON.stringify({ username, password })
   };
 
-  return fetch('/users/authenticate', requestOptions)
+  return fetch('https://api.penpals.nanoka.fr/auth/login', requestOptions)
     .then(response => {
       if (!response.ok) {
         return Promise.reject(response.statusText);

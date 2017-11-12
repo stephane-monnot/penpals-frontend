@@ -15,7 +15,7 @@ describe('async userActions', () => {
 
   it('creates USERS_LOGIN_SUCCESS when logging has been done', () => {
     fetchMock
-      .postOnce('/users/authenticate', {
+      .postOnce('https://api.penpals.nanoka.fr/auth/login', {
         body: { username: 'monnot.stephane@gmail.com', password: 'mysecurepassword' },
         headers: { 'content-type': 'application/json' }
       });
