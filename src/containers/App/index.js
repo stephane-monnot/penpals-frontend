@@ -12,20 +12,19 @@ const App = () => (
     <header>
       <Navigation>
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/about-us">About us</NavLink>
-        <NavLink to="/login">Login</NavLink>
-        <NavLink to="/signup">Register</NavLink>
+        <NavLink to="/about-us.html">About us</NavLink>
+        <NavLink to="/login.html">Login</NavLink>
+        <NavLink to="/signup.html">Register</NavLink>
       </Navigation>
     </header>
 
     <main>
       <Route exact path="/" component={HomeScreen} />
-      <Route exact path="/about-us" component={AboutScreen} />
-      <Route exact path="/login" component={LoginScreen} />
-      <Route exact path="/signup" component={RegisterScreen} />
+      <Route exact path="/about-us.html" component={AboutScreen} />
+      <Route exact path="/login.html" component={LoginScreen} />
+      <Route exact path="/signup.html" component={RegisterScreen} />
     </main>
   </div>
 );
 
 export default App;
-

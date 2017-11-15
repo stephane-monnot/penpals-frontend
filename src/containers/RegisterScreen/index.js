@@ -81,7 +81,7 @@ class RegisterScreen extends Component {
           </div>
           <div className="form-group">
             <button className="btn btn-primary">Register</button>
-            <Link to="/login" className="btn btn-link">Cancel</Link>
+            <Link to="/login.html" className="btn btn-link">Cancel</Link>
           </div>
         </form>
       </div>

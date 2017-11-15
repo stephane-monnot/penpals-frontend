@@ -10,8 +10,8 @@ describe(Navigation, () => {
   const component = mount(
     <MemoryRouter location="someLocation" context={{}}>
       <Navigation>
-        <NavLink to="/home" label="Home" />
-        <NavLink to="/about" label="About" />
+        <NavLink to="/home.html" label="Home" />
+        <NavLink to="/about.html" label="About" />
       </Navigation>
     </MemoryRouter>
   )
@@ -20,8 +20,8 @@ describe(Navigation, () => {
     const component = renderer.create(
       <MemoryRouter location="someLocation" context={{}}>
         <Navigation>
-          <NavLink to="/home" label="Home" />
-          <NavLink to="/about" label="About" />
+          <NavLink to="/home.html" label="Home" />
+          <NavLink to="/about.html" label="About" />
         </Navigation>
       </MemoryRouter>
     );

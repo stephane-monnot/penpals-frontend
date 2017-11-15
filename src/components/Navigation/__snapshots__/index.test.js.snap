@@ -10,7 +10,7 @@ _react2.default.createElement("ul", { className: "navigation", __source: { fileN
     className="navigation-link"
   >
     <a
-      href="/home"
+      href="/home.html"
       label="Home"
       onClick={[Function]}
     />
@@ -19,7 +19,7 @@ _react2.default.createElement("ul", { className: "navigation", __source: { fileN
     className="navigation-link"
   >
     <a
-      href="/about"
+      href="/about.html"
       label="About"
       onClick={[Function]}
     />
